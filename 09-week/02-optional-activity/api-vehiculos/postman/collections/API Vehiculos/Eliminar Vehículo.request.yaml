@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/api/vehiculos/3
+method: DELETE
+order: 4460182464576056

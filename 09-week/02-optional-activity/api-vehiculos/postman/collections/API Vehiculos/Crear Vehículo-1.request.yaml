@@ -1,0 +1,20 @@
+$kind: http-request
+name: Crear Vehículo
+url: http://localhost:8080/api/vehiculos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"placa\": \"ABC123\",\r
+
+    \  \"marca\": \"Toyota\",\r
+
+    \  \"modelo\": \"Corolla\",\r
+
+    \  \"anio\": 2020,\r
+
+    \  \"color\": \"Blanco\"\r
+
+    }"
+order: 1791135838735

@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/api/vehiculos
+method: GET
+order: 1244667738635309

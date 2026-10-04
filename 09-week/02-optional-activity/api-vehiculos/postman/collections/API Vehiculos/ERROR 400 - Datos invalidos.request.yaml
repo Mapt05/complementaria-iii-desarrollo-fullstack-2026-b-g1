@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8080/api/vehiculos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"placa\": \"\",\r
+
+    \  \"marca\": \"Toyota\",\r
+
+    \  \"anio\": 1800\r
+
+    }"
+order: 4411226758673626

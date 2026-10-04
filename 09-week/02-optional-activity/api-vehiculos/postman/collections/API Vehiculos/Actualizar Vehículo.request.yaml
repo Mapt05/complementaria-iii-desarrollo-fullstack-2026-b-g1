@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:8080/api/vehiculos/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"placa\": \"ABC123\",\r
+
+    \  \"marca\": \"Toyota\",\r
+
+    \  \"modelo\": \"Corolla Cross\",\r
+
+    \  \"anio\": 2022,\r
+
+    \  \"color\": \"Negro\"\r
+
+    }"
+order: 2230372954224651
